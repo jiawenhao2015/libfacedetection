@@ -31,24 +31,6 @@ layer {
     bias_term: false
   }
 }
-#layer {
-#  name: "conv1_1bn"
-#  type: "BatchNorm"
-#  bottom: "conv1_1"
-#  top: "conv1_1"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
 
 layer {
   name: "relu1_1"
@@ -76,24 +58,6 @@ layer {
   }
 }
 
-#layer {
-#  name: "conv1_2bn"
-#  type: "BatchNorm"
-#  bottom: "conv1_2"
-#  top: "conv1_2"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
 
 layer {
   name: "relu1_2"
@@ -132,24 +96,7 @@ layer {
     bias_term: false
   }
 }
-#layer {
-#  name: "conv2_1bn"
-#  type: "BatchNorm"
-#  bottom: "conv2_1"
-#  top: "conv2_1"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
+
 
 layer {
   name: "relu2_1"
@@ -176,25 +123,6 @@ layer {
     bias_term: false
   }
 }
-#layer {
-#  name: "conv2_2bn"
-#  type: "BatchNorm"
-#  bottom: "conv2_2"
-#  top: "conv2_2"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
-
 
 layer {
   name: "relu2_2"
@@ -234,24 +162,6 @@ layer {
     bias_term: false
   }
 }
-#layer {
-#  name: "conv3_1bn"
-#  type: "BatchNorm"
-#  bottom: "conv3_1"
-#  top: "conv3_1"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
 
 layer {
   name: "relu3_1"
@@ -279,24 +189,6 @@ layer {
   }
 }
 
-#layer {
-#  name: "conv3_2bn"
-#  type: "BatchNorm"
-#  bottom: "conv3_2"
-#  top: "conv3_2"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
 
 layer {
   name: "relu3_2"
@@ -323,24 +215,6 @@ layer {
     bias_term: false
   }
 }
-#layer {
-#  name: "conv3_3bn"
-#  type: "BatchNorm"
-#  bottom: "conv3_3"
-#  top: "conv3_3"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
 
 layer {
   name: "relu3_3"
@@ -383,25 +257,6 @@ layer {
   }
 }
 
-#layer {
-#  name: "conv4_1bn"
-#  type: "BatchNorm"
-#  bottom: "conv4_1"
-#  top: "conv4_1"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
-
 layer {
   name: "relu4_1"
   type: "ReLU"
@@ -428,25 +283,6 @@ layer {
   }
 }
 
-#layer {
-#  name: "conv4_2bn"
-#  type: "BatchNorm"
-#  bottom: "conv4_2"
-#  top: "conv4_2"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
-
 layer {
   name: "relu4_2"
   type: "ReLU"
@@ -472,25 +308,6 @@ layer {
     bias_term: false
   }
 }
-
-#layer {
-#  name: "conv4_3bn"
-#  type: "BatchNorm"
-#  bottom: "conv4_3"
-#  top: "conv4_3"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
 
 layer {
   name: "relu4_3"
@@ -532,24 +349,6 @@ layer {
     dilation: 1
   }
 }
-#layer {
-#  name: "conv5_1bn"
-#  type: "BatchNorm"
-#  bottom: "conv5_1"
-#  top: "conv5_1"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
 
 layer {
   name: "relu5_1"
@@ -578,25 +377,6 @@ layer {
   }
 }
 
-#layer {
-#  name: "conv5_2bn"
-#  type: "BatchNorm"
-#  bottom: "conv5_2"
-#  top: "conv5_2"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
-
 layer {
   name: "relu5_2"
   type: "ReLU"
@@ -623,26 +403,6 @@ layer {
     dilation: 1
   }
 }
-
-#layer {
-#  name: "conv5_3bn"
-#  type: "BatchNorm"
-#  bottom: "conv5_3"
-#  top: "conv5_3"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
-
 
 layer {
   name: "relu5_3"
@@ -686,25 +446,6 @@ layer {
   }
 }
 
-#layer {
-#  name: "conv6_1bn"
-#  type: "BatchNorm"
-#  bottom: "conv6_1"
-#  top: "conv6_1"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
-
 layer {
   name: "relu6_1"
   type: "ReLU"
@@ -732,25 +473,6 @@ layer {
   }
 }
 
-#layer {
-#  name: "conv6_2bn"
-#  type: "BatchNorm"
-#  bottom: "conv6_2"
-#  top: "conv6_2"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
-
 layer {
   name: "relu6_2"
   type: "ReLU"
@@ -777,25 +499,6 @@ layer {
     dilation: 1
   }
 }
-
-#layer {
-#  name: "conv6_3bn"
-#  type: "BatchNorm"
-#  bottom: "conv6_3"
-#  top: "conv6_3"
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#  param {
-#    lr_mult: 1
-#    decay_mult: 1
-#  }
-#}
 
 layer {
   name: "relu6_3"
@@ -1272,11 +975,6 @@ layer {
   }
 }
 ########################################################
-
-
-
-
-
 layer {
   name: "mbox_loc"
   type: "Concat"
@@ -1313,6 +1011,7 @@ layer {
     axis: 2
   }
 }
+
 #####################################################
 layer {
   name: "mbox_conf_reshape"
